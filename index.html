@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap" rel="stylesheet">
 
+    <!-- as sfatui sa se evite internal styling -->
        <style>
            table,tr,td{
             border-spacing: 0px;
@@ -57,9 +58,11 @@
                         text-transform: uppercase;
                         text-align: center;">Extra</td>
             </tr>
+            <!-- cu rowspan vrei sa ocupi spatiu pe urmatoarele randuri? -->
             <tr rowspan="3" style="
                                 position: relative;
                                 ">
+                <!-- colspan se refera la spatiul in numar de celule pe care vrei sa il ocupi considerand structura tabelului. In functie de cum l-ai folosit cred ca esti putin confuzie aici -->
                 <td colspan="2"style="
                         font-family: 'Epilogue', sans-serif;
                         font-size: 200px;
